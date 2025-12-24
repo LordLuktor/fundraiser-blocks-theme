@@ -1,0 +1,59 @@
+/**
+ * Fundraiser Dashboard Styles
+ * Including AI Power chatbot integration
+ */
+
+/* Analytics Assistant Section */
+.analytics-assistant-section {
+    margin-top: 40px;
+    padding: 20px;
+    background: #2d2d2d;
+    border-radius: 8px;
+    border: 1px solid #404040;
+}
+
+.analytics-assistant-section h3 {
+    color: #C26148;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+
+.analytics-assistant-section .wpaicg-chatgpt-widget {
+    max-width: 100%;
+    background: #1a1a1a;
+}
+
+/* Override AI Power default colors to match theme */
+.wpaicg-chat-message-ai {
+    background: #AC5039 !important;
+}
+
+.wpaicg-chat-message-user {
+    background: #C26148 !important;
+}
+
+/* Chatbot container styling */
+.wpaicg-chatgpt-widget {
+    border: 1px solid #404040;
+    border-radius: 8px;
+}
+
+/* Chat input styling */
+.wpaicg-chat-input {
+    background: #1a1a1a;
+    color: #f5f5f5;
+    border-color: #404040;
+}
+
+.wpaicg-chat-input:focus {
+    border-color: #C26148;
+}
+
+/* Send button */
+.wpaicg-chat-send-button {
+    background: #C26148 !important;
+}
+
+.wpaicg-chat-send-button:hover {
+    background: #AC5039 !important;
+}
